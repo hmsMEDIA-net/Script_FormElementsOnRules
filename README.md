@@ -1,5 +1,4 @@
-# Script_FormElementsOnRules
-Elements in Forms Based on Rules
+# Name: Script_FormElementsOnRules
 
 ## Goal
 The goal is to gray out elements in forms according to defined rules and disable selection.
@@ -19,7 +18,6 @@ How can you customize this script for your own use? There aren't many changes ne
         field_3_name: ['field_3_element']
       }
     }
-
   };
   ````
 
