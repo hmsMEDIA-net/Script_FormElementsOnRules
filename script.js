@@ -4,29 +4,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   const disableRules = {
-    // first Rule
     field_1_name: {
       'field_1_element_2': {
-        field_2_name: ['field_2_element'],
-        field_3_name: ['field_3_element']
-      }
-    // Don't forget to put a comma after the next curly brace when you define additional rules.
-    }
-
-/*  
-   // additional Rule, if needed
-    field_4_name: {
-      'field_4_element': {
-        field_2_name: ['field_2_element_1']
-      },
-      'field_4_element': {
-        field_2_name: ['field_2_element_2']
+        field_2_name: ['field_2_element_1'],
+        field_3_name: ['field_3_element_3']
       }
     }
-*/
-
   };
-
 
   function setOptionState(radio, active) {
     const optionWrapper = radio.closest('.form-check');
