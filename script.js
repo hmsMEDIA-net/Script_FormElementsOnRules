@@ -27,8 +27,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   };
 
-
-
   function setOptionState(radio, active) {
     const optionWrapper = radio.closest('.form-check');
     const label = form.querySelector('label[for="' + radio.id + '"]');
